@@ -1,12 +1,101 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Page Title</title>
-</head>
-<body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Najpiekniejsze obrazy</title>
+	<style>
+	
+		header {
+				padding: 20px;
+				margin: 30px;
+				background-color: white;
+				color: #0D0D0D;
+				text-align: center;
+				text-transform: uppercase;
+				font-size: 50px;
+				}
+	    body {  
+				padding: 50px;
+				margin: 50px;
+				background-color: #EAE9F2;
+				text-align: center;
+				font-family: Lato, Arial, sans-serif;
+				} 
+				
+		.opisy { 
+				
+				padding: 60px;
+				background-color: white;
+				color: #0D0D0D;
+				
+				}
+		.ciekawostki {
+				margin: 30px;
+				padding: 10px;
+				background-color: #0B2D59;
+				color: white;
+				}
+		.lista {
+				margin: 30px;
+				padding: 10px;
+				background-color:#A67A6A;
+				color: white;
+				}
+		.ankieta {
+				background-color: #A67A6A; 
+				color: #0D0D0D;
+				}
+		a {
+				color: grey;
+				}
+		a:hover {
+				color: black;
+				}
+		p {
+				padding: 30px;
+				}
+				
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
+	</style>
+  </head>
+  <body>
+	<header>Najpiękniejsze obrazy</header>
 
-</body>
+		<div class="opisy">
+		<h3>Malarstwo</h3>
+		<p> obok rzeźby i grafiki jedna z gałęzi sztuk plastycznych. Posługuje się środkami plastycznego wyrazu, np. barwną plamą i linią, umieszczonymi na płótnie lub innym podłożu (papier, deska, mur), a dzieła zwykle są dwuwymiarowe lub trzywymiarowe z elementami przestrzennymi. Twórczość malarska podlega zasadom właściwym dla danego okresu. Poszukiwanie odmiennych form wyrazu przyczynia się jednak do kształtowania nowych oryginalnych kierunków i niezwykłej różnorodności dzieł malarskich.</p>
+			<div class="ciekawostki">
+				<h4>CIEKAWOSTKA</h4>
+				<p>Najdroższe dzieło sztuki w historii - przypisywany Leonardowi da Vinci obraz "Zbawiciel Świata" - znajduje się na jachcie saudyjskiego księcia - twierdzi portal Artnet.com. Obraz "Zbawiciel świata" (Salvator Mundi) został w 2017 r. sprzedany za rekordowe 450 mln dol.</p>
+			</div>
+			<div class="lista"
+				<ol> <h4>Najbardziej znane obrazy </h4>
+				<li> Mona Lisa, Leonardo da Vinci </li>
+				<li> Narodziny Wenus, Sandro Botticelli</li>
+				<li>Stworzenie Adama, Michał Anioł</li>
+				<li>Ostatnia wieczerza, Leonardo da Vinci</li>
+				<li>Mleczarka, Jan Vermeer</li>
+				<li>Guernica, Pablo Picasso</li>
+				<li>Słoneczniki, Vincent van Gogh</li></ol>
+			</div>
+			<a href="http://fineartexpress.pl/malarstwo/33-slynne-obrazy/116-10-najslynniejszych-obrazow-swiata"> źródło</a>
+		<br></br>
+		<img src= "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/800px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg" alt="Mona Lisa" width="322" height="480">
+		<img src= "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg/1920px-Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg" alt="Mona Lisa" width="640" height="420">
+	</div>
+	 </div>
+
+	<div class="ankieta">
+		<p>Który obraz bardziej Ci się podoba?<p>
+		<form>
+			<label><input type="radio" name="obraz" value="Mona Lisa" > Mona Lisa</label>
+			<label><input type="radio" name="obraz" value="Mona Lisa" > Narodziny Wenus</label>
+			<button type="submit">Wyślij</button>
+		</form>
+	</div>
+	
+
+
+
+  </body>
 </html>
